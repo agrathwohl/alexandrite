@@ -6,7 +6,7 @@
 
 <Toasts />
 
-<Header slim={false} appName="Alexandrite" href="/">
+<Header slim={false} appName="POTP Inner Circle" href="/">
 	<Logo slot="logo" size="large" />
 </Header>
 

@@ -9,7 +9,7 @@
 
 	export let title = '';
 
-	const appName = 'Alexandrite';
+	const appName = 'POTP Inner Circle';
 	// this is used sometimes where we don't have an app context, need a fallback
 	const { unreadCount, unreadReportCount } = getAppContext() || { loggedIn: false, unreadCount: writable(0) };
 

@@ -3,6 +3,11 @@
 FROM node:18.17.0-bookworm-slim as build
 RUN apt-get update && apt-get install -y --no-install-recommends dumb-init
 ENV ALEXANDRITE_RUN_IN_NODE=true
+ENV ALEXANDRITE_DEFAULT_INSTANCE=forum.partoftheproblem.com
+ENV ALEXANDRITE_FORCE_INSTANCE=forum.partoftheproblem.com
+ENV ALEXANDRITE_WELCOME_LEMMY_HELP=false
+ENV ALEXANDRITE_WELCOME_INSTANCE_HELP=false
+ENV ALEXANDRITE_WELCOME_ACCOUNT_CREATE_BUTTON=false
 
 WORKDIR /usr/src/app
 

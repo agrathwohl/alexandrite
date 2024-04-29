@@ -22,14 +22,14 @@
 
 	$: loggedInTabs = $profile.jwt
 		? [
-				{ title: 'Lemmy', href: `/${$profile.instance}/settings/lemmy` },
+				{ title: 'Profile', href: `/${$profile.instance}/settings/lemmy` },
 				{ title: 'Blocks', href: `/${$profile.instance}/settings/blocks` }
 		  ]
 		: [];
 
 	$: tabs = [
 		{
-			title: 'Alexandrite',
+			title: 'General',
 			href: `/${$profile.instance}/settings`
 		},
 		...loggedInTabs

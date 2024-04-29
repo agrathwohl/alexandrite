@@ -58,7 +58,7 @@
 					disabled={$saveState.busy}
 				/>
 			{/if}
-			{@const postLinkText = 'Original Post'}
+			<!--{@const postLinkText = 'Original Post'}
 			<Tooltip>
 				<span slot="tooltip">{postLinkText}</span>
 				<a class="button small" href={postView.post.ap_id} target="_blank" rel="noreferrer noopener">
@@ -66,6 +66,7 @@
 					<span class="sr-only">{postLinkText}</span>
 				</a>
 			</Tooltip>
+            -->
 			<LogButton text="Log PostView" on:click={() => console.log({ postView })} />
 			<ExtraActions small actions={overflowMenuOptions} on:open={onExtraActionsOpen} />
 		{/if}

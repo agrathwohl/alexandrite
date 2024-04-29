@@ -10,12 +10,13 @@
 					{#if communityView}
 						<CommunityCounts {communityView} />
 					{/if}
+                    <!--
 					<Stack dir="r" gap={2} align="center">
 						<ExternalLink href={community.actor_id} cl="inline-link">
 							<Icon icon="arrow-up-right-from-square" />
 							View on {communityInstance}
 						</ExternalLink>
-					</Stack>
+					</Stack>-->
 				</Stack>
 			</div>
 			<div slot="end">

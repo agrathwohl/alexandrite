@@ -55,13 +55,6 @@
 			</IconLink>
 		{/if}
 
-		<span class="sx-badge-gray">
-			{#if !$profile.loggedIn}
-				<Icon icon="user-secret" />
-			{/if}
-			{instanceText}
-		</span>
-
 		{#if $profile.loggedIn}
 			<HeaderCreateMenu />
 		{/if}

@@ -2,8 +2,8 @@
 	<span slot="tooltip">Create</span>
 	<NavDropdown showOpenIcon={false}>
 		<span slot="button">
-			<Icon icon="plus" />
-			<span class="sr-only">Create</span>
+			<!--<Icon icon="plus" />-->
+			<span>Post</span>
 		</span>
 		<div slot="menu">
 			<ul>
